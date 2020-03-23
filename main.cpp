@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-    system("date");
-    system("start iexplore");
-    // system("start cmd.exe");
-    return 0;
+    for (int i = 0; i < 5; i++) {
+        system("start iexplore");
+        return 0;
+    }
 }
